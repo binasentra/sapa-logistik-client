@@ -1,0 +1,38 @@
+.dropzone{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-width: 2px;
+    border-radius: 2px;
+    border-color: #eeeeee;
+    border-style: dashed;
+    background-color: #fafafa;
+    color: #bdbdbd;
+    outline: none;
+    transition: border .24s ease-in-out;
+    cursor: pointer;
+}
+
+.tableContainer {
+    overflow-x: auto; /* Allows horizontal scrolling on smaller screens */
+  }
+  
+  .tableContainer table {
+    width: 100%; /* Ensures the table takes up the full width of the container */
+    border-collapse: collapse; /* Ensures borders are collapsed */
+  }
+  
+  .tableContainer th,
+  .tableContainer td {
+    padding: 8px 12px; /* Adds padding to table cells */
+    text-align: left; /* Aligns text to the left */
+  }
+  
+  @media (max-width: 600px) {
+    .tableContainer th,
+    .tableContainer td {
+      padding: 4px 8px; /* Reduces padding on smaller screens */
+    }
+  }

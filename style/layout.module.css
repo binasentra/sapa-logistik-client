@@ -1,0 +1,111 @@
+.header_grid{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 10px;
+}
+
+.avatar{
+    cursor: pointer !important;
+}
+
+.menu_container{
+    display: flex;
+}
+
+.notification{
+    margin-right: 20px;
+}
+
+
+.search_container{
+   display: flex;
+    justify-content: end;
+    align-items: center;
+    background-image: url('/images/secondary-header-bg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    height: 100px;
+    padding-right: 30px !important;
+}
+
+
+
+.search_container input{
+    background: 0 0 !important;
+    border-color: rgba(249, 249, 249, .3) !important;
+    border-radius: 6px !important;
+    width: 300px;
+    max-width: 100%;
+    color: #fff !important;
+}
+
+.search_container input::placeholder {
+    color: #fff; 
+}
+
+.menu_main_title{
+    margin: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+
+.sidebar_container{
+    --bs-card-box-shadow: 0px 3px 4px 0px rgba(0, 0, 0, 0.03);
+    --bs-card-border-color: #F1F1F4;
+    border: 1px solid #F1F1F4;
+    --bs-bg-rgb-color: 241,241,244;
+    background-color: #F1F1F4;
+    border-radius: 20px 20px 20px 20px;
+    height: 506px !important;
+    overflow-y: scroll;
+    position: relative;
+}
+
+.menu_item{
+    --nl-bg: rgba(34, 139, 230, 0.1);
+    --nl-hover: rgba(34, 139, 230, 0.12);
+    --nl-color: #228be6;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 8px calc(0.75rem* 1);;
+    user-select: none;
+}
+
+.menu_item:hover{
+    background-color: #ffffff;
+    cursor: pointer;
+    color: #071437;
+}
+
+.active_menu{
+    background-color: #ffffff !important;
+    color: #071437 !important;
+}
+
+.menu_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 150ms ease;
+}
+
+.menu_title{
+    font-size: 20px;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 10px;
+    color: #78829D;
+}
+
+
+
+.sidebar_container ul li{
+     margin: 0px 10px 0px 10px;
+    list-style-type: square;
+}
+
+
+
